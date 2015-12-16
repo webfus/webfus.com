@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-color: #4d9ee2;
-  background-image: url('../img/header_bg.jpg');
+  background-image: url('../img/index-hero-background.png');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -250,8 +250,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 1000px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;

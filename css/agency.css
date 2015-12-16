@@ -683,6 +683,9 @@ ul.social-buttons li a:active {
 #contact table td:first-child {
   padding-right: 0.5em;
 }
+#contact #gmaps {
+  height: 320px;
+}
 ::-moz-selection {
   text-shadow: none;
   background: #0e72b5;

@@ -232,6 +232,20 @@ header .gradient-bg{
   background: -webkit-linear-gradient(45deg, rgba(255,187,16,0) 0%,rgba(255,187,16,0) 62%,rgba(255,187,16,1) 100%);
 }
 
+header .image-bg{
+  background-image: url('../img/index-hero-background.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+  text-align: center;
+  color: white;
+  background-repeat:   no-repeat
+}
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -269,11 +283,11 @@ header .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
   }
-  header .image-bg{
+header .image-bg{
   background-image: url('../img/index-hero-background.png');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: 50% 65%;
+  background-position: 50% 300px;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
@@ -282,6 +296,7 @@ header .intro-text .intro-heading {
   color: white;
   background-repeat:   no-repeat
 }
+
 }
 section {
   padding: 0 0 100px 0;

@@ -680,6 +680,9 @@ ul.social-buttons li a:active {
   opacity: 0;
   display: none;
 }
+#contact table td:first-child {
+  padding-right: 0.5em;
+}
 ::-moz-selection {
   text-shadow: none;
   background: #0e72b5;

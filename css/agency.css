@@ -558,6 +558,9 @@ section {
   margin: 0 auto;
   border: 7px solid white;
 }
+#about .team-member img {
+  padding: 0 30px;
+}
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;

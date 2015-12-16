@@ -312,6 +312,9 @@ section {
   margin: 15px 0;
   text-transform: none;
 }
+#expertise .section-leading img {
+  padding: 0 50px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;

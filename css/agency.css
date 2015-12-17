@@ -689,6 +689,7 @@ ul.social-buttons li a:active {
   margin-right: 20px;
   text-align: center;
   color: white;
+  margin-bottom: 2em;
 }
 .portfolio-modal .modal-content dt.challenge {
   background-color: #e85625;

@@ -327,21 +327,21 @@ section {
   padding: 0 50px;
 }
 #portfolio {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 #portfolio .section-detail {
-    background-color: #29364a;
-    padding-bottom: 150px;
+  background-color: #29364a;
+  padding-bottom: 150px;
 }
 #portfolio .section-detail #separator {
-    position: relative;
-    height: 400px;
-    background-color: #edf4f9;
-    z-index: 0;
-    margin-top: -15px;
+  position: relative;
+  height: 400px;
+  background-color: #edf4f9;
+  z-index: 0;
+  margin-top: -15px;
 }
 #portfolio .section-detail .container .row:first-child {
-    margin-top: -100px;
+  margin-top: -100px;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -384,7 +384,7 @@ section {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-cover {
-    background-color: white;
+  background-color: white;
 }
 #portfolio .portfolio-item .portfolio-cover img {
   padding: 25px;
@@ -657,25 +657,54 @@ ul.social-buttons li a:active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
+  font-size: 12pt;
 }
 .portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2em;
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  font-size: 12pt;
+  margin-bottom: 1em;
 }
 .portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.8em;
+  color: #666;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.portfolio-modal .modal-content .tags {
+  margin-bottom: 2em;
+}
+.portfolio-modal .modal-content dt {
+  float: left;
+  clear: left;
+  width: 7em;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
+.portfolio-modal .modal-content dt.challenge {
+  background-color: #e85625;
+}
+.portfolio-modal .modal-content dt.solution {
+  background-color: #175ec7;
+}
+.portfolio-modal .modal-content dt.benefit {
+  background-color: #3b9788;
+}
+.portfolio-modal .modal-content dd {
+  margin-bottom: 2em;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin: 30px 0 30px 30px;
+  max-width: 30%;
 }
 .portfolio-modal .close-modal {
   position: absolute;

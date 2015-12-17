@@ -398,9 +398,9 @@ section {
   background-color: #4d9ee2;
   padding: 25px;
 }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h3 {
   text-transform: none;
-  margin: 0;
+  margin-top: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -589,6 +589,10 @@ section {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+}
+.portfolio-modal .modal-content .team-member img {
+  margin: 0 auto;
+  max-width: 100%;
 }
 #about .team-member img {
   padding: 0 30px;

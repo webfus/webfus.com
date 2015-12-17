@@ -224,6 +224,14 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-color: #4d9ee2;
+  text-align: center;
+  color: white;
+  margin-bottom: -400px;
+}
+header #header-bg {
+  position: absolute;
+  width: 100%;
+  height: 1300px;
   background-image: url('../img/index-hero-background.png');
   background-repeat: none;
   background-attachment: scroll;
@@ -232,8 +240,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: center;
-  color: white;
+  z-index: 1;
 }
 header .intro-text {
   padding-top: 100px;
@@ -319,6 +326,23 @@ section {
 #expertise .section-leading img {
   padding: 0 50px;
 }
+#portfolio {
+    padding-bottom: 0;
+}
+#portfolio .section-detail {
+    background-color: #29364a;
+    padding-bottom: 150px;
+}
+#portfolio .section-detail #separator {
+    position: relative;
+    height: 400px;
+    background-color: #edf4f9;
+    z-index: 0;
+    margin-top: -15px;
+}
+#portfolio .section-detail .container .row:first-child {
+    margin-top: -100px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -359,11 +383,19 @@ section {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
+#portfolio .portfolio-item .portfolio-cover {
+    background-color: white;
+}
+#portfolio .portfolio-item .portfolio-cover img {
+  padding: 25px;
+  height: 150px;
+}
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
+  min-height: 200px;
   margin: 0 auto;
-  background-color: white;
-  text-align: center;
+  color: white;
+  background-color: #4d9ee2;
   padding: 25px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -688,7 +720,7 @@ ul.social-buttons li a:active {
   padding-right: 0.5em;
 }
 #contact #gmaps {
-  height: 320px;
+  height: 400px;
 }
 ::-moz-selection {
   text-shadow: none;

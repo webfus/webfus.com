@@ -590,6 +590,10 @@ section {
   margin: 0 auto;
   border: 7px solid white;
 }
+.portfolio-modal .modal-content .team-member img {
+  margin: 0 auto;
+  max-width: 100%;
+}
 #about .team-member img {
   padding: 0 30px;
 }
